@@ -1,2 +1,2 @@
 # philosophy
-just some little pjilosophy quiz
+just some little philosophy quiz
