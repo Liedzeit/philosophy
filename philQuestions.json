@@ -1,0 +1,32 @@
+[
+  {
+    question: "Der Krieg ist nach Heraklit der Vater aller ",
+    answers: {
+      a: "Soldaten",
+      b: "Freuden",
+      c: "Dinge",
+      d: "Gewalt"
+    },
+    correctAnswer: "c"
+  },
+  {
+    question: "Wer warnte die offene Gesellschaft vor ihren Feinden?",
+    answers: {
+      a: "Punks",
+      b: "Popper",
+      c: "Rocker",
+      d: "Mods"
+    },
+    correctAnswer: "b"
+  },
+  {
+    question: "Wenn Russell angesichts von Antinomien einen über den Durst trinkt, dann ist",
+    answers: {
+      a: "John speiübel",
+      b: "Stan liebenswert beschwipst",
+      c: "Ed gar nicht nüchtern",
+      d: "Bert randvoll"
+    },
+    correctAnswer: "d"
+  }
+]
