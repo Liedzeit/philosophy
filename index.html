@@ -8,58 +8,45 @@
 
       <link rel="stylesheet" type="text/css" href="css/basic.css"/>
       
-      
-
-      <script type="text/javascript" src="js/jQuery2.1.4.js"></script>
-      <script type="text/javascript" src="js/who.js"></script>
-
-      
-      <!--<script type="module" src="https://component.kitchen/modules/DateComboBox.js"></script>-->
-      <!--<script type="text/javascript" src="js/keybinding.js"></script>--><!--allows to define shortcuts in d3-->
+       <script type="text/javascript" src="js/questions.json"></script>
+       <script type="text/javascript" src="js/who.js"></script>
 
    </head>
 
+  <body>
+   <h1>Pilosophie-Special</h1>
+  <div id="startQuestion">
+
+    <div id="money" class="money">
+     
+     </div>
+       <div class="flex-container wrap">
+     <div class = "startquestion" id ="question">
+      </div>
+    </div>
+
+    <div id="questions">
+    <ul class="flex-container wrap">
+   <li class="flex-item qa"><span class="option">A: </span> <span id="A"></span> </li>
+    <li class="flex-item qa"><span class="option">B: </span> <span id="B"></span> </li>
+      </ul>
+      <ul class="flex-container wrap">
+    <li class="flex-item qa"><span class="option ">C: </span> <span id="C"></span> </li>
+    <li class="flex-item qa"><span class="option">D: </span> <span id="D"></span> </li>
+  </ul>
+  </div>
 
 
 
-
-
-   <body>
-   
-   
-   Ordnen Sie diese Teilbereiche der Philosophie dem entsprechenden Dialog Platons zu
-
-1. Erkenntnistheorie
-2. Sprachphilosophie
-3. Metaphysik
-4. Rechtsphilosophie
-
-
-a) Kratylos, b) Theaitetos, c) Parmenides, d) Politeia
-
-                  <!--<img id="b_Tgl" width = "750px" src="bg.jpg" alt=""/>-->
-                  <h1>Pilosophen-Special</h1>
-                  <h2 id = "round"><h2>
-                    <h3 id= "sum">&nbsp;<h3>
-
-                  <br>
-                  <div class = "container">
-                    <div class = "question"></div>
-                  <br>
-                  <button id = "a1" onClick = "check('a')" class = "answer"></button>
-                  <button id = "a2" onClick = "check('b')" class = "answer"></button>
-                  <button id = "a3" onClick = "check('c')" class = "answer"></button>
-                  <button id = "a4" onClick = "check('d')" class = "answer"></button>
-
-                  <br>
-                  <div>
-                  <button onClick = "next()" class = "next">Nächte Frage</button>
-                </div>
-
-
-
-
-                </div>
+  <br>
+   <div class="flex-container wrap">
+    <div class = "guess" id="guess"></div>
+    <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+    <div class = "result" id="result"></div>
+  </div>
+  </div>          
+  </div>
+</div>
 
    </body>
 </html>
