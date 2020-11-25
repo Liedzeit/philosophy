@@ -1,0 +1,184 @@
+const quizdata =[
+  {"Special":"Philosophie",
+  "levels":
+  [
+  "Embryo",
+  "Krippe",
+  "Kita",
+  "Grundschule",
+  "Unterstufe",
+  "Mittelstufe",
+  "Mittlere Reife",
+  "Oberstufe",
+  "Abitur",
+  "Studienanfänger",
+  "Proseminar",
+  "Hauptseminar",
+  "Oberseminar",
+  "Magister",
+  "Doktor",
+  "Professor"],
+  "questions":
+  [
+  {
+    "question": "Ordnen Sie Erkenntnistheorie, Sprachphilosophie, Metaphysik und Rechtsphilosophie dem entsprechenden Dialog Platons zu",
+    "answers": {
+      "A": "Kratylos",
+      "B": "Theaitetos",
+      "C": "Parmenides",
+      "D": "Politeia"
+    },
+    "correctAnswer": "B, A, C, D"
+  },
+  {
+    "question": "Der Krieg ist nach Heraklit der Vater aller",
+    "answers": {
+      "A": "Soldaten",
+      "B": "Freuden",
+      "C": "Dinge",
+      "D": "Gewalt"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Wer warnte die offene Gesellschaft vor ihren Feinden?",
+    "answers": {
+      "A": "Punks",
+      "B": "Popper",
+      "C": "Rocker",
+      "D": "Mods"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "question": "Wenn Russell angesichts seiner Antinomien einen über den Durst trinkt, dann ist",
+    "answers": {
+      "A": "John speiübel",
+      "B": "Stan liebenswert beschwipst",
+      "C": "Ed gar nicht nüchtern",
+      "D": "Bert randvoll"
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "question": "Wer die Güte und Allmacht Gottes mit den Übeln in der Welt vereinbaren will, der betreibt",
+    "answers": {
+      "A": "Annadasbeyn",
+	"B": "Leaderkhnie",
+	"C": "Theodizee",
+	"D": "Marademfus"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Den logischen Schluß, in der die Voraussetzungen und der Schluß allgemein affirmativ sind, merkt man sich seit dem Mittelalter mit",
+    "answers": {
+      "A": "Barbara",
+      "B": "Claudia",
+	"C": "Katharina",
+	"D": "Joachim"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Das kontradiktorische Urteil zu »Alle Menschen sind sterblich« lautet",
+    "answers": {
+      "A": "Kein Mensch ist sterblich",
+      "B": "Manche Menschen sind sterblich",
+	"C": "Mindestens ein Mensch ist nicht sterblich",
+	"D": "Alle Menschen sind unsterblich"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Die Forderung »Pluralitas non est ponenda sine neccessiate« ging in die Philosophiegeschichte ein als",
+    "answers": {
+      "A": "Occhams Rasiermesser",
+      "B": "Aquins Wärmflasche",
+	  "C": "Canterburys Zahnbürste",
+	  "D": "Bacons Hammer"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Nach Kant ist Aufklärung der Ausgang des Menschen aus seiner ",
+    "answers": {
+      "A": "selbstverschuldeten Unmündigkeit",
+      "B": "gesellschaftsbestimmten Pietät",
+	  "C": "zwangsgesetzten Urteilslosigkeit",
+	  "D": "sinnlichen Apperzeption"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Yin und Yang bedeuten ursprünglich",
+    "answers": {
+      "A": "Frau – Mann",
+      "B": "schwarz – weiß",
+    "C": "dunkle Seite des Hügels – helle Seite des Hügels",
+    "D": "kalter Regen – warmer Regen"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Welcher Philosoph beschäftigte sich eingehend mit einem Teil seines Namens?",
+    "answers": {
+      "A": "Schopenhauer",
+      "B": "Wittgenstein",
+	  "C": "Fichte",
+	  "D": "Habermas"
+    },
+    "correctAnswer": "C"
+  },
+    {
+    "question": "Samuel Johnson widerlegte Bischof Berkeleys Idealismus, indem er ",
+    "answers": {
+      "A": "darauf verwies, dass eine materielose Welt die Allmacht Gottes außer Acht lässt",
+      "B": "Aristoteles Argumente gegen Zenon aufnahm und erweiterte",
+	  "C": "die auch subjektive Inkohärenz eines subsistenten Materiebegriffs zu bedenken gab",
+	  "D": "mit seinem Fuß gegen einen Stein trat"
+    },
+    "correctAnswer": "D"
+  },
+      {
+    "question": "Wer nannte seine Philosophie absichtlich hässlich »Pragmatizismus«?",
+    "answers": {
+      "A": "John Dewey",
+      "B": "Ralph Waldo Emerson",
+	  "C": "Charles S. Peirce",
+	  "D": "Josiah Royce"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Welcher Thrillerautor schrieb einen Roman, der beinahe so heißt wie Wittgensteins Hauptwerk?",
+    "answers": {
+      "A": "Tom Clancy",
+      "B": "Philip Kerr",
+	  "C": "Michael Ridpath",
+	  "D": "Ken Follet"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "question": "Wer vom Sein auf das Sollen schließt, der begeht einen",
+    "answers": {
+      "A": "naturalistischen Fehlschluß",
+      "B": "ontologischen Fehlschluß",
+	  "C": "ethischen Fehlschluß",
+	  "D": "kontinentalen Fehlschluß"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Adorno verwendet welches Zitat von Francis Bradley als Motto in seinen Minima Moralia?",
+    "answers": {
+      "A": "Metaphysik besteht darin, schlechte Gründe dafür zu finden, was wir instinktiv glauben",
+      "B": "Wo alles schlecht ist, muss es gut sein, das Schlimmste zu kennen",
+	  "C": "Manche mögen alles Nackte nicht und so finden sie auch die nackte Wahrheit unanständig",
+	  "D": "Alles, weniger als das Universum ist eine Abstraktion"
+    },
+    "correctAnswer": "B"
+  }
+]}
+]
