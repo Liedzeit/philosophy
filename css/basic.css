@@ -1,15 +1,69 @@
-html,body { height: 100%; margin: 0px; padding: 10px; }
+html,body {
+ height: 100%;
+  margin: 0px;
+   padding: 10px;
+    font-family: sans-serif;
+    color: white;
+    background-color: lightgrey;
+    background-image: linear-gradient(blue, black);
+}
 
 /****************************/
 /********** header **********/
 /****************************/
 
 
-.button {
- 
-  
-  background-color: blue;
 
+.flex-container {
+  padding: 0;
+  margin-left: 40px;
+  list-style: none;
+  border: 0px solid yellow;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  justify-content:space-between;
+}
+
+.wrap    { 
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+} 
+
+.flex-inbetween {
+  background: green;
+  width: 10px;
+  float:right;
+}
+
+.flex-item {
+  background: darkblue;
+  padding: 10px;
+  width: 45%;
+  height: 30px;
+  border: 3px solid silver;
+  line-height: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: left;
+}
+
+.flex-item:hover {
+  background-color: blue; /* Green */
+  
+}
+
+
+.button {
+  background-color: blue;
+}
+
+span {
+  pointer-events: none;
 }
 
 h1 {
@@ -26,7 +80,7 @@ h3 {
 }
 
 button:hover {
-  background-color: orange; /* Green */
+  background-color: lightblue; /* Green */
   color: black;
 }
 
@@ -36,14 +90,79 @@ button:hover {
   padding-left: 120px;
 }
 
+.blue{
+  background-color: darkblue;
+}
+
+.correct {
+   background-color: lightgreen;
+   border: 3px solid silver;
+   background-image: linear-gradient(green, black);
+   display: block;
+}
+
+.wrong {
+  border: 3px solid silver;
+  background-color: red;
+  background-image: linear-gradient(red, black);
+  display: block;
+}
+
+.chosen{
+  border: 3px solid silver;
+  background-color: orange;
+   background-image: linear-gradient(orange, black);
+    display: block;
+}
+
+
+.guess{
+  
+  font-weight: 600;
+  padding: 5px;
+  width: 90px;
+  height: 23px;
+
+}
+
+.result{
+  border: 0px solid silver;
+  font-weight: 600;
+  padding: 5px;
+  height: 23px;
+  width: 90px;
+ 
+}
+
+
+
 .answer {
-  transition-duration: 0.4s;
   display: block;
   background-color: blue;
   color: white;
-   border: 2px solid; /* Green */
-  padding: 15px 32px;
- width: 70%;
+  margin-left: 10%;
+  margin-top: 15px;
+  border: 2px solid; 
+  padding-top: 10px;
+  padding: 15px;
+  width: 80%;
+  text-align: left;
+  text-decoration: none;
+ 
+  font-size: 18px;
+}
+
+.startquestion {
+ 
+  background-color: darkblue;
+  color: white;
+  border: 3px solid silver;
+  width: 100%;
+  margin-top: 15px;
+  
+  padding-top: 10px;
+  padding: 15px;
+  
   text-align: left;
   text-decoration: none;
  
@@ -62,6 +181,21 @@ button:hover {
   text-decoration: none;
  
   font-size: 18px;
+}
+
+.money {
+  padding: 15px;
+   text-align: right;
+}
+
+.option {
+  color: orange;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.invisible {
+  display: none;
 }
 
 .next {
